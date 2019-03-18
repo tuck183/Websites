@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'VisbyMedium';
+    src: url('../fonts/visby/visbycf-medium-webfont.woff2') format('woff2'),
+         url('../fonts/visby/visbycf-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nowregular';
+    src: url('../fonts/now/now-regular-webfont.woff2') format('woff2'),
+         url('../fonts/now/now-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

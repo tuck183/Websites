@@ -1,0 +1,72 @@
+/* #Tablet (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 959px) and (max-width: 1177px) {
+
+
+
+
+}
+
+/* #Tablet (Portrait)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+
+}
+
+/* #Mobile (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* page container */
+#page-container{
+    padding: 0;
+}
+/* menu */
+.mobile-menu-area {display: block}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+   #ga-env {
+   	height: auto;
+   	max-height: 400px;
+}
+#whyus-section .skl-1 {
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+#whyus-section .single-cat-1 > h4:after {
+	display: none;
+}
+
+
+
+}
+
+/*  #Mobile (Portrait) 320px
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+/* page container */
+#page-container{
+    padding: 0;
+}
+/* menu */
+.mobile-menu-area {display: block}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+   #ga-env {
+   	height: auto;
+   	max-height: 400px;
+}
+#whyus-section .skl-1 {
+	margin-top: 40px;
+}
+#whyus-section .single-cat-1 > h4:after {
+	display: none;
+}
+#whyus-section .single-cat-1 {
+	padding-bottom: 30px;
+}
+
+}

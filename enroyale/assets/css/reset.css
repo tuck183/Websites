@@ -1,0 +1,193 @@
+@import url('roboto.css');
+@import url('font-awesome.min.css');
+@import url('ionicons.css');
+@import url('stroke-gap.css');
+@import url('typography.css');
+@import url('animate.css');
+@import url('jquery-ui.css');
+@import url('owl.carousel.css');
+@import url('owl.theme.css');
+@import url('owl.transitions.css');
+@import url('meanmenu.css');
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* --------------------------------------------------------  */
+/*  Base */
+/* -------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+ center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+ canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+::-moz-selection {
+background: #353648;
+color: #ffffff;
+text-shadow: none;
+}
+::selection {
+  background: #353648;
+  color: #ffffff;
+  text-shadow: none;
+}
+:focus {
+  outline-color: transparent!important;
+  outline-style: none!important;
+}
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: 'RobotoRegular', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #000;
+  background: #f3f3f3; 
+}
+html, body {
+  height: 100%;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+ul li {
+    list-style:none;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+img {
+  vertical-align: middle;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 3px;
+}
+.img-thumbnail {
+  padding: 2px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #ededf0;
+  border-radius: 3px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+hr {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.clear {
+  clear:both;
+}
+.clear-left {
+  clear:left;
+}
+.clear-right {
+  clear:right;
+}
+.nopadding {
+  padding: 0 !important;
+}
+.hide-overflow {
+  overflow: hidden !important;
+}
+/* ==========================================================================
+  Background Colors
+   ========================================================================== */
+.bg-white {
+  background: #fff;
+}
+.bg-enroyale {
+  background: #ec1b20;
+}
+
+
+
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+.enroyale {
+  color: #ec1b20 !important;
+}
+.black {
+  color: #000;
+}
+/* ==========================================================================
+   MArgin
+   ========================================================================== */
+.m-t-10 {
+  margin-top: -10px;
+}
+
+
+
+
+/* ==========================================================================
+   Padding
+   ========================================================================== */
+.p-t-10 {
+  padding-top: 10px;
+}
+.p-t-20 {
+  padding-top: 20px;
+}
+.p-t-30 {
+  padding-top: 30px;
+}
+.p-t-70 {
+  padding-top: 70px;
+}
+
+
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+.section-default {
+  padding-top: 85px;
+  padding-bottom: 50px;
+  background: #fff;
+}
+.section-blank {
+  padding-top: 85px;
+  padding-bottom: 50px;
+  background: transparent;
+}
+

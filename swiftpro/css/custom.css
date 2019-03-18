@@ -1,0 +1,452 @@
+
+/* ==============================
+   Generic Background
+   ============================== */
+.bg-1 {
+  background: #f8ca14 !important;
+}
+.bg-2 {
+	background: #3a57a7;
+}
+.bg-0 {
+	background: #000;
+}
+/* ==============================
+  Main Menu
+   ============================== */
+.mainmenu-area.stricky-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.mainmenu-area .navigation .nav-footer {
+    display: none;
+}
+
+.mainmenu-area .navigation .nav-header > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li {
+    display: inline-block;
+    position: relative;
+	padding:0px 19px;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li:first-child > a {
+    padding-left: 0;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > a {
+    display: block;
+	position:relative;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 400;
+    padding: 15px 0px;
+    transition: all .3s ease;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > a:before {
+    top: 0;
+	position:absolute;
+    display: block;
+    height: 2px;
+    width: 0%;
+    content: "";
+    background-color: #465fa9;
+	transition: all 0.35s ease;
+	-webkit-transition: all 0.35s ease;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > a:hover:before, 
+.mainmenu-area .snip1168 .current a:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li:hover > a {
+    color: #465fa9;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li {
+    display: block;
+    position: relative;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li:last-child > a {
+    border-bottom: 0;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    padding: 14px 19px;
+    border-bottom: 1px solid #E9E9E9;
+    transition: all .3s ease;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li:hover > a {
+    background: #ffb606;
+    color: #fff;
+    border-color: 0;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li > ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+    background: #fff;
+    transition: all .5s ease;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li > ul > li {
+    display: block;
+    position: relative;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li > ul > li:last-child > a {
+    border-bottom: 0;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li > ul > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #2B2B2B;
+    padding: 14px 19px;
+    border-bottom: 1px solid #E9E9E9;
+    transition: all .3s ease;
+}
+
+.mainmenu-area .navigation .nav-header > ul > li > ul > li > ul > li:hover > a {
+    background: #ffb606;
+    color: #fff;
+    border-color: 0;
+}
+
+@media (min-width: 769px) {
+  .mainmenu-area  .navigation .nav-header .dropdown a button {
+        display: none;
+    }
+}
+
+
+/* ==============================
+   Header Notification
+   ============================== */
+#hdr_notification {
+	height: 90px;
+}
+#hdr_notification .header__notification {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+}
+#hdr_notification .header__notification__content {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	line-height: 18px;
+	padding: 0 0 23px;
+	margin: 0 44px;
+	text-align: center;
+	max-width: 100%
+}
+#hdr_notification .header__notification__content ul {
+	margin: 0 10px
+}
+#hdr_notification .header__notification__content ul li {
+	display: inline-block;
+	letter-spacing: .04em;
+	line-height: 20px
+}
+#hdr_notification .header__notification__content ul li:first-of-type, #hdr_notification .header__notification__content ul li:last-of-type {
+	margin-top: 23px
+}
+#hdr_notification .header__notification__content ul a {
+	border: 2px solid rgba(255,255,255,.4);
+	border-radius: 4px;
+	opacity: 1;
+	padding: 0 17px 0 18px;
+	transition: border-color .2s ease;
+	color: #FFF;
+	font-size: 13px;
+	line-height: 40px;
+	margin: 0 40px
+}
+#hdr_notification .header__menu p a svg path, #hdr_notification .header__notification__close a svg path {
+	fill: #FFF;
+	transition: fill .2s ease
+}
+#hdr_notification .header__notification__content ul a:hover {
+	border: 2px solid #fff;
+	color: #FFF
+}
+#hdr_notification .header__notification .notification__title__tag {
+	display: inline-block
+}
+#hdr_notification .header__notification .notification__title__tag span {
+	background: #fff;
+	border: 2px solid #eaebed;
+	color: #8894a3;
+	border-radius: 20px;
+	padding: 0 16px;
+	font-size: 11px
+}
+#hdr_notification .header__notification__close {
+	height: 100%;
+	position: absolute;
+	right: 4.34783%;
+	top: 0;
+	z-index: 1
+}
+#hdr_notification .header__notification__close a, #hdr_notification .header__notification__close a svg {
+	display: block;
+	height: 12px;
+	width: 12px
+}
+#hdr_notification .header__notification__close a {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 16px;
+	color: #FFF
+}
+#hdr_notification .header__notification__close a:hover svg path {
+	fill: #FFF
+}
+/* ==============================
+  Tracker
+   ============================== */
+ .estimate_package, .track_package {
+ 	height: 250px !important;
+ }
+
+/************************************
+    Page title header
+************************************/
+.cover-background {
+    position: relative !important;
+    background-size: cover !important;
+    overflow: hidden !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.opacity-medium {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+}
+.bg-extra-dark-gray {
+    background-color: #1c1c1c;
+}
+.page-title-large h1 {
+    font-size: 41px;
+    line-height: 49px;
+}
+
+.about__section__downloads .about_block {
+}
+div.about__section__downloads div a {
+	font-size: 12px;
+	line-height: 16px;
+	color: #8894A3;
+}
+div.about__section__downloads div a p {
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+div.about__section__downloads div a p img {
+	height: auto;
+	max-width: 100%;
+	width: auto
+}
+div.about__section__downloads div a h6 {
+	color: #465fa9;
+	transition: color .2s ease
+}
+div.about__section__downloads div a h6 span {
+	display: inline-block
+}
+div.about__section__downloads div a h6 span:after {
+	background: 0 0;
+	content: "";
+	display: block;
+	height: 1px;
+	transition: background-color .2s ease, width .2s ease;
+	width: 0
+}
+div.about__section__downloads div a:hover h6 {
+	color: #465fa9;
+}
+div.about__section__downloads div a:hover h6 span:after {
+	background: rgba(188,83,75,.3);
+	width: 100%
+}
+
+
+
+
+
+@media (max-width: 1199px) {
+#headr_nav .logo {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+}
+
+@media (max-width: 1024px) {
+.header-right-info {
+}
+.mainmenu-area .navigation .nav-header > ul > li > a {
+	padding: 23px 12px;
+}
+}
+
+@media (max-width: 991px) {
+.mainmenu-area .navigation .nav-header > ul > li > a {
+	padding: 23px 11px;
+}
+}
+
+@media (max-width: 768px) {
+.mainmenu-area .header-right-info {
+	padding: 0;
+}
+}
+
+/* menu responsive styles */
+
+@media (max-width: 768px) {
+/*.navigation {position: relative;}*/
+.mainmenu-area .navigation .nav-header {
+	display: none;
+	position: absolute;
+	top: 90px;
+	right: 10px;
+	width: 200px;
+	z-index: 9999;
+	overflow: hidden;
+	overflow-y: scroll;
+	margin-left: 15px
+}
+.mainmenu-area .navigation .nav-footer {
+	display: block;
+	top: 0px;
+	right: 10px;
+	position: absolute;
+}
+.mainmenu-area .navigation .nav-footer button {
+	width: 40px;
+	height: 40px;
+	background: #465fa9;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+.mainmenu-area .navigation .nav-footer button:hover {
+	background: #eaeaea;
+}
+.mainmenu-area .navigation .nav-header > ul > li {
+	display: block;
+	width: 100%;
+	padding: 0px;
+}
+.mainmenu-area .navigation .nav-header > ul > li > a, .mainmenu-area .navigation .nav-header > ul > li:first-child > a {
+	padding: 14px 19px;
+	color: #fff;
+	background: #465fa9;
+	border-bottom: 1px solid #fff;
+}
+.mainmenu-area .navigation .nav-header .dropdown a {
+	position: relative;
+}
+.mainmenu-area .navigation .nav-header .dropdown a button {
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	color: #465fa9;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+	top: 8px;
+}
+.mainmenu-area .navigation .nav-header > ul > li:hover > a {
+	color: #fff;
+}
+.mainmenu-area .navigation .nav-header > ul > li > ul {
+	position: relative;
+	display: none;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	transition: none;
+}
+}
+
+@media (max-width: 375px) {
+.mainmenu-area .navigation .nav-header {
+	width: 250px;
+}
+.mainmenu-area .logo {
+	width: 190px;
+}
+.mainmenu-area .navigation .nav-footer {
+	display: block;
+	top: 0px;
+	right: 10px;
+	position: absolute;
+}
+
+
+}

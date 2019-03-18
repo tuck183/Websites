@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/flaticon.eot");
+    src: url("../fonts/flaticon/flaticon.eot#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon/flaticon.woff") format("woff"),
+    url("../fonts/flaticon/flaticon.ttf") format("truetype"),
+    url("../fonts/flaticon/flaticon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-architecture1:before {
+    content: "\e000";
+}
+.flaticon-architecture4:before {
+    content: "\e001";
+}
+.flaticon-avatar107:before {
+    content: "\e002";
+}
+.flaticon-badges3:before {
+    content: "\e003";
+}
+.flaticon-barrow:before {
+    content: "\e004";
+}
+.flaticon-bricks13:before {
+    content: "\e005";
+}
+.flaticon-builder:before {
+    content: "\e006";
+}
+.flaticon-building115:before {
+    content: "\e007";
+}
+.flaticon-building150:before {
+    content: "\e008";
+}
+.flaticon-building151:before {
+    content: "\e009";
+}
+.flaticon-building255:before {
+    content: "\e00a";
+}
+.flaticon-bulldozer2:before {
+    content: "\e00b";
+}
+.flaticon-cap3:before {
+    content: "\e00c";
+}
+.flaticon-cars7:before {
+    content: "\e00d";
+}
+.flaticon-city3:before {
+    content: "\e00e";
+}
+.flaticon-city5:before {
+    content: "\e00f";
+}
+.flaticon-concrete:before {
+    content: "\e010";
+}
+.flaticon-construction10:before {
+    content: "\e011";
+}
+.flaticon-construction11:before {
+    content: "\e012";
+}
+.flaticon-construction12:before {
+    content: "\e013";
+}
+.flaticon-construction14:before {
+    content: "\e014";
+}
+.flaticon-construction42:before {
+    content: "\e015";
+}
+.flaticon-construction45:before {
+    content: "\e016";
+}
+.flaticon-construction5:before {
+    content: "\e017";
+}
+.flaticon-construction55:before {
+    content: "\e018";
+}
+.flaticon-construction60:before {
+    content: "\e019";
+}
+.flaticon-construction79:before {
+    content: "\e01a";
+}
+.flaticon-construction90:before {
+    content: "\e01b";
+}
+.flaticon-constructions4:before {
+    content: "\e01c";
+}
+.flaticon-constructor2:before {
+    content: "\e01d";
+}
+.flaticon-constructor4:before {
+    content: "\e01e";
+}
+.flaticon-constructor7:before {
+    content: "\e01f";
+}
+.flaticon-crane18:before {
+    content: "\e020";
+}
+.flaticon-crane2:before {
+    content: "\e021";
+}
+.flaticon-crane20:before {
+    content: "\e022";
+}
+.flaticon-crane29:before {
+    content: "\e023";
+}
+.flaticon-crane8:before {
+    content: "\e024";
+}
+.flaticon-demolition:before {
+    content: "\e025";
+}
+.flaticon-digger2:before {
+    content: "\e026";
+}
+.flaticon-diploma20:before {
+    content: "\e027";
+}
+.flaticon-drill:before {
+    content: "\e028";
+}
+.flaticon-drill1:before {
+    content: "\e029";
+}
+.flaticon-excavator2:before {
+    content: "\e02a";
+}
+.flaticon-excavator3:before {
+    content: "\e02b";
+}
+.flaticon-excavator4:before {
+    content: "\e02c";
+}
+.flaticon-excavator5:before {
+    content: "\e02d";
+}
+.flaticon-forklift2:before {
+    content: "\e02e";
+}
+.flaticon-forklift3:before {
+    content: "\e02f";
+}
+.flaticon-game92:before {
+    content: "\e030";
+}
+.flaticon-gear41:before {
+    content: "\e031";
+}
+.flaticon-hammer26:before {
+    content: "\e032";
+}
+.flaticon-hammer54:before {
+    content: "\e033";
+}
+.flaticon-hammer55:before {
+    content: "\e034";
+}
+.flaticon-handy:before {
+    content: "\e035";
+}
+.flaticon-helmet13:before {
+    content: "\e036";
+}
+.flaticon-home163:before {
+    content: "\e037";
+}
+.flaticon-home207:before {
+    content: "\e038";
+}
+.flaticon-home95:before {
+    content: "\e039";
+}
+.flaticon-homework:before {
+    content: "\e03a";
+}
+.flaticon-house112:before {
+    content: "\e03b";
+}
+.flaticon-house16:before {
+    content: "\e03c";
+}
+.flaticon-house196:before {
+    content: "\e03d";
+}
+.flaticon-house199:before {
+    content: "\e03e";
+}
+.flaticon-house300:before {
+    content: "\e03f";
+}
+.flaticon-houses7:before {
+    content: "\e040";
+}
+.flaticon-industry7:before {
+    content: "\e041";
+}
+.flaticon-job-search4:before {
+    content: "\e042";
+}
+.flaticon-labor:before {
+    content: "\e043";
+}
+.flaticon-labourer:before {
+    content: "\e044";
+}
+.flaticon-machine:before {
+    content: "\e045";
+}
+.flaticon-man497:before {
+    content: "\e046";
+}
+.flaticon-miner:before {
+    content: "\e047";
+}
+.flaticon-notepad3:before {
+    content: "\e048";
+}
+.flaticon-paint100:before {
+    content: "\e049";
+}
+.flaticon-paint32:before {
+    content: "\e04a";
+}
+.flaticon-paintbrush1:before {
+    content: "\e04b";
+}
+.flaticon-pipes1:before {
+    content: "\e04c";
+}
+.flaticon-power30:before {
+    content: "\e04d";
+}
+.flaticon-repair23:before {
+    content: "\e04e";
+}
+.flaticon-roller1:before {
+    content: "\e04f";
+}
+.flaticon-rule1:before {
+    content: "\e050";
+}
+.flaticon-schoolmaterial21:before {
+    content: "\e051";
+}
+.flaticon-settings48:before {
+    content: "\e052";
+}
+.flaticon-shovel23:before {
+    content: "\e053";
+}
+.flaticon-silhouette15:before {
+    content: "\e054";
+}
+.flaticon-spanner10:before {
+    content: "\e055";
+}
+.flaticon-tool135:before {
+    content: "\e056";
+}
+.flaticon-tool156:before {
+    content: "\e057";
+}
+.flaticon-tool41:before {
+    content: "\e058";
+}
+.flaticon-tool612:before {
+    content: "\e059";
+}
+.flaticon-tool80:before {
+    content: "\e05a";
+}
+.flaticon-tool998:before {
+    content: "\e05b";
+}
+.flaticon-tractor3:before {
+    content: "\e05c";
+}
+.flaticon-transport227:before {
+    content: "\e05d";
+}
+.flaticon-transport278:before {
+    content: "\e05e";
+}
+.flaticon-transport304:before {
+    content: "\e05f";
+}
+.flaticon-transport316:before {
+    content: "\e060";
+}
+.flaticon-transport353:before {
+    content: "\e061";
+}
+.flaticon-transport483:before {
+    content: "\e062";
+}
+.flaticon-triangular46:before {
+    content: "\e063";
+}
+.flaticon-truck27:before {
+    content: "\e064";
+}
+.flaticon-truck29:before {
+    content: "\e065";
+}
+.flaticon-truck30:before {
+    content: "\e066";
+}
+.flaticon-uploaded:before {
+    content: "\e067";
+}
+.flaticon-wall20:before {
+    content: "\e068";
+}
+.flaticon-wheelbarrow5:before {
+    content: "\e069";
+}
+.flaticon-work25:before {
+    content: "\e06a";
+}
+.flaticon-work34:before {
+    content: "\e06b";
+}
+.flaticon-worker5:before {
+    content: "\e06c";
+}
+.flaticon-worker54:before {
+    content: "\e06d";
+}
+.flaticon-worker81:before {
+    content: "\e06e";
+}
+.flaticon-workers5:before {
+    content: "\e06f";
+}
+.flaticon-working10:before {
+    content: "\e070";
+}
+.flaticon-working12:before {
+    content: "\e071";
+}
+.flaticon-working13:before {
+    content: "\e072";
+}
+.flaticon-working9:before {
+    content: "\e073";
+}
+.flaticon-wrench70:before {
+    content: "\e074";
+}
