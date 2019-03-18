@@ -1,0 +1,224 @@
+/* #Tablet (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 959px) and (max-width: 1177px) {
+/* ===========================
+   home brochure
+   =========================== */
+.home-brochure, .home-careers {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+}
+#fwslider .description {
+	display: none;
+}
+.news-splash {
+	display: none;
+}
+
+}
+
+/* #Tablet (Portrait)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* ===========================
+   home brochure
+   =========================== */
+.home-brochure, .home-careers {
+	padding-top: 110px !important;
+	padding-bottom: 110px !important;
+}
+#fwslider .description {
+	display: none;
+}
+.news-splash {
+	display: none;
+}
+
+}
+
+/* #Mobile (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* page container */
+#page-container{
+    padding: 0;
+}
+
+/* ===========================
+   Gallery
+   =========================== */
+   #ga-env {
+   	height: auto;
+   	max-height: 400px;
+}
+   #fwslider .slide_content_wrap { 
+   	display: none;
+}
+/* ===========================
+   Home brochure
+   =========================== */
+.home-brochure, .home-careers {
+	padding-top: 110px !important;
+	padding-bottom: 110px !important;
+}
+
+#introduction {
+	display: none !important;
+}
+.news-splash {
+	display: none;
+}
+
+}
+
+/*  #Mobile (Portrait) 320px
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+/* page container */
+#page-container{
+    padding: 0;
+}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+   #ga-env {
+   	height: auto;
+   	max-height: 400px;
+}
+   #fwslider .slide_content_wrap { 
+   	display: none;
+}
+#flash-news .home-policy-img img{
+	width: auto !important;
+	height: 300px !important;
+}
+.news-splash {
+	display: none;
+}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+#introduction {
+	display: none !important;
+}
+
+}
+
+
+
+
+@media (max-width: 1199px) {
+.logo {
+	float: none !important;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+}
+
+@media (max-width: 1024px) {
+.header-right-info {
+	float: none !important;
+	padding-left: 10%;
+}
+.navigation .nav-header > ul > li > a {
+	padding: 23px 12px;
+}
+}
+
+@media (max-width: 991px) {
+.navigation .nav-header > ul > li > a {
+	padding: 23px 11px;
+}
+}
+
+@media (max-width: 768px) {
+.header-right-info {
+	padding: 0;
+}
+}
+
+/* menu responsive styles */
+
+@media (max-width: 768px) {
+/*.navigation {position: relative;}*/
+.navigation .nav-header {
+	display: none;
+	position: absolute;
+	top: 90px;
+	right: 10px;
+	width: 200px;
+	z-index: 9999;
+	overflow: hidden;
+	overflow-y: scroll;
+	margin-left: 15px
+}
+.navigation .nav-footer {
+	display: block;
+	top: 0px;
+	right: 10px;
+	position: absolute;
+}
+.navigation .nav-footer button {
+	width: 40px;
+	height: 40px;
+	background: #e07526;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	margin: 15px 0;
+	cursor: pointer;
+}
+.navigation .nav-footer button:hover {
+	background: #eaeaea;
+}
+.navigation .nav-header > ul > li {
+	display: block;
+	width: 100%;
+	padding: 0px;
+}
+.navigation .nav-header > ul > li > a, .navigation .nav-header > ul > li:first-child > a {
+	padding: 14px 19px;
+	background: #e07526;
+	border-bottom: 1px solid #fff;
+}
+.navigation .nav-header .dropdown a {
+	position: relative;
+}
+.navigation .nav-header .dropdown a button {
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	color: #e07526;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+	top: 8px;
+}
+.navigation .nav-header > ul > li:hover > a {
+	color: #fff;
+}
+.navigation .nav-header > ul > li > ul {
+	position: relative;
+	display: none;
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	transition: none;
+}
+}
+
+@media (max-width: 375px) {
+.navigation .nav-header {
+	width: 250px;
+}
+.logo {
+	width: 190px;
+}
+
+
+}

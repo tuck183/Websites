@@ -1,0 +1,191 @@
+/* #Tablet (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 959px) and (max-width: 1177px) {
+/*-------------------------------------------------*/
+/* =  General code
+/*-------------------------------------------------*/
+#headerfull ul {
+	padding:10px 0 10px;
+}
+#headerfull li {
+	font-size: 14px;
+}
+.site-brand img {
+	max-width:120px;
+	height:auto;
+}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+#gallerywrap {
+	height: 480px;
+	overflow: hidden;
+}
+#aboutwrap .sap, #aboutwrap .axel {
+	padding: 50px;
+	float: right;
+}
+.flex-direction-nav a {
+	top: 60% !important;
+}
+.flex-direction-nav .flex-next {
+	right: 2em;
+	top: 76% !important;
+	text-align: right;
+	padding: 0 15px 0 0;
+}
+
+}
+
+/* #Tablet (Portrait)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*-------------------------------------------------*/
+/* =  General code
+/*-------------------------------------------------*/
+#headerfull ul {
+	padding:10px 0 10px;
+}
+#headerfull li {
+	font-size: 14px;
+}
+.site-brand img {
+	max-width:120px;
+	height:auto;
+}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+#gallerywrap {
+	height: 480px;
+}
+#aboutwrap .sap, #aboutwrap .axel {
+	padding: 50px;
+	float: right;
+}
+.flex-direction-nav a {
+	top: 65%;
+}
+.flex-direction-nav .flex-next {
+	right: 2em;
+	top: 65%;
+	text-align: right;
+	padding: 0 15px 0 0;
+}
+.site-brand {
+	text-align:center;
+	margin-left:-30px;
+}
+.flex-caption {
+	display:none;
+}
+#target-group p, #benefits p, #req p,#target-group .image-block+p, #benefits .image-block+p, #req .image-block+p {
+	font-size:13px;
+}
+
+}
+
+/* #Mobile (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/*-------------------------------------------------*/
+/* =  General code
+/*-------------------------------------------------*/
+#headerfull {
+	display:none;
+}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+#gallerywrap {
+	height: 250px;
+	margin-top:0;
+}
+#aboutwrap .sap, #aboutwrap .axel {
+	padding: 50px 0;
+	float: right;
+}
+.flex-direction-nav a {
+	top: 65%;
+}
+.flex-direction-nav .flex-next {
+	right: 2em;
+	top: 65%;
+	text-align: right;
+	padding: 0 15px 0 0;
+}
+.site-brand {
+	text-align:center;
+	margin-left:-30px;
+}
+.flex-caption {
+	display:none;
+}
+#target-group p, #benefits p, #req p,#target-group .image-block+p, #benefits .image-block+p, #req .image-block+p {
+	font-size:13px;
+}
+#targetwrap {
+	height:auto;
+	overflow:hidden;
+}
+
+}
+
+/*  #Mobile (Portrait) 320px
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+/*-------------------------------------------------*/
+/* =  General code
+/*-------------------------------------------------*/
+#headerfull {
+	display:none;
+}
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+#gallerywrap {
+	height: 200px;
+	background:#c00;
+	margin-top:0px;
+}
+#aboutwrap .sap, #aboutwrap .axel {
+	padding: 50px 0;
+	float: right;
+}
+.flex-direction-nav a {
+	top: 40%;
+}
+.flex-direction-nav .flex-next {
+	right: 2em;
+	top: 40%;
+	text-align: right;
+	padding: 0 15px 0 0;
+}
+.site-brand {
+	text-align:center;
+	margin-left:-30px;
+}
+.flex-caption {
+	display:none;
+}
+#target-group p, #benefits p, #req p,#target-group .image-block+p, #benefits .image-block+p, #req .image-block+p {
+	font-size:13px;
+}
+#targetwrap {
+	height:auto;
+	overflow:hidden;
+}
+#cost-box table {
+	width: 100%;
+	border-collapse: collapse;
+	text-transform: capitalize;
+	font-family: 'RobotoRegular';
+	line-height: 1.1em;
+	font-size:10px;
+}
+#appform .check3 {
+	width:320px;
+}
+}
